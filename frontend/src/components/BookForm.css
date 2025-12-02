@@ -1,0 +1,65 @@
+/* === Book Form (Matches Admin Theme) === */
+
+.book-form {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 22px;
+  border-radius: 16px;
+  max-width: 520px;
+  margin: 20px auto;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+/* Input wrapper spacing */
+.book-form div {
+  margin-bottom: 14px;
+}
+
+/* Inputs */
+.book-form input,
+.book-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: rgba(255,255,255,0.25);
+  color: white;
+}
+
+.book-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.book-form input::placeholder,
+.book-form textarea::placeholder {
+  color: #e5e5ff;
+}
+
+/* File Input Label */
+.book-form label {
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+/* Save button */
+.book-form button {
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.book-form button:hover {
+  background: #0d9a68;
+}

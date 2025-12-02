@@ -1,0 +1,73 @@
+/* ---- HISTORY PAGE (Matches App Theme) ---- */
+
+.history-container {
+  padding: 25px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9, #7c3aed);
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+/* Title */
+.history-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* History list */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Each history item */
+.history-card {
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  transition: 0.25s ease;
+}
+
+.history-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35);
+}
+
+/* Book title */
+.history-book-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* Labels */
+.history-info {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
+/* Return status */
+.returned-status {
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.returned-yes {
+  background: #10b981;
+  color: #fff;
+}
+
+.returned-no {
+  background: #ef4444;
+  color: #fff;
+}

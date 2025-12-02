@@ -1,0 +1,84 @@
+/* Background layout */
+.welcome-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #4f46e5, #6d28d9, #7c3aed);
+  padding: 20px;
+  color: #fff;
+}
+
+/* Main card */
+.welcome-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  padding: 40px 35px;
+  border-radius: 18px;
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+.welcome-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.welcome-subtitle {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+/* Description text */
+.welcome-description {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+/* Buttons container */
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+/* Buttons */
+.welcome-btn {
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Primary button */
+.welcome-btn.primary {
+  background: #fff;
+  color: #4f46e5;
+}
+
+.welcome-btn.primary:hover {
+  background: #f0f0f0;
+}
+
+/* Secondary button */
+.welcome-btn.secondary {
+  background: rgba(255,255,255,0.22);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: #fff;
+}
+
+.welcome-btn.secondary:hover {
+  background: rgba(255,255,255,0.32);
+}
